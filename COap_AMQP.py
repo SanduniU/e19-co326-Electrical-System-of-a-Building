@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # RabbitMQ (AMQP) Configuration
-AMQP_BROKER = "amqp.example.com"
+AMQP_BROKER = "amqp://guest:guest@localhost:5672/vhost"
 AMQP_QUEUE = "amqp_data"
 
 # RabbitMQ connection and channel

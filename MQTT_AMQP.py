@@ -8,7 +8,7 @@ MQTT_PORT = 1883
 MQTT_TOPIC = "sensor/data"
 
 # RabbitMQ Configuration
-AMQP_BROKER = "amqp.example.com"
+AMQP_BROKER = "amqp://guest:guest@localhost:5672/vhost"
 AMQP_QUEUE = "amqp_data"
 
 # Callback when an MQTT message is received
